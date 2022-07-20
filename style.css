@@ -59,7 +59,7 @@ margin-bottom: 70px;
 }
 
 .header-info h1{
-    color: rgb(132, 121, 235);
+    color: white;
     height: 90px;
     width: 600px;
     padding-bottom: 30px;
@@ -591,6 +591,14 @@ padding-bottom: 10px;
 
 
 }
+
+/* ...............VIEW............................. */
+
+
+.third-section button{
+
+    visibility: visible;
+}
 }
 
 
@@ -658,6 +666,56 @@ padding-bottom: 10px;
 
 
 
+/*           ....................ANIMATION................... */
+
+
+/* .header-match{
+
+    height: 50px;
+} */
+
+/* .animation{
+    background-color: blueviolet;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    animation: sliding 5s ease 3s ;
+   
+} */
+
+
+.header:hover{
+
+    animation: sliding 5s ease 1s ;
+
+}
+
+@keyframes sliding{
+
+    0%{
+        background-color: black;
+        left: 0;
+       
+    }
+    25%{
+        background-color: rgb(122, 224, 136);
+        left: 200px;
+    }
+    50%{
+        background-color: rgb(129, 24, 228);
+    }
+    75%{
+        background-color: rgb(67, 14, 214);
+    }
+    100%{
+        background-color: black;
+    }
+
+
+}
+
+
+
 
 
 /* ...............media query................ */
@@ -691,6 +749,31 @@ padding-bottom: 10px;
         padding-right: 120px;
     }
 
+}
+
+
+
+/*  ..............VIEW................... */
+
+
+.third-section{
+    visibility: hidden;
+}
+.view button{
+
+    height: 50px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.view{
+
+    padding-bottom: 20px;
 }
 
 
