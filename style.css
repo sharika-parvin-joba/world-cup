@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+body{
+
+
+     display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+
+
+
+
+}
+
+.header{
+
+margin-top: 60px;
+margin-right: 60px;
+margin-left: 60px;
+background-color: black;
+border-radius: 20px;
+height: 500px;
+margin-bottom: 70px;
+
+
+
+
+
+}
+
+
+
+.header-div{
+
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+    font-size: 35px;
+
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.header-info{
+
+    margin-right: 30px;
+
+
+}
+
+
+.header-info p{
+
+    font-size: 20px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.header-info h1{
+    color: rgb(132, 121, 235);
+    height: 90px;
+    width: 600px;
+    padding-bottom: 30px;
+    font-size: 55px;
+}
+
+.header-img img{
+    height: 460px;
+   
+}
+
+.header-info button{
+
+    background-color: red;
+    height: 70px;
+    width: 140px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+/* ............middle section............. */
+
+
+
+.middle-section{
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+    margin-right: 40px;
+    margin-left: 60px;
+
+
+
+margin-bottom: 70px;
+    
+
+}
+.lists-info{
+    background-color: black;
+    padding: 40px;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+   
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    
+    
+}
+.list-1{
+
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.list-1 a{
+    text-decoration: none;
+    color: black;
+}
+.list-2{
+
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+.list-3{
+
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+
+}
+
+
+
+.matchs{
+
+    display: grid;
+     grid-template-columns: repeat(3,1fr); 
+     
+}
+
+.match{
+
+    margin-right: 5px;
+}
+
+.match-img img{
+    height: 150px;
+    width: 280px;
+}
+
+.match-button {
+
+    padding-top: 10px;
+
+}
+
+.match-button button{
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 20px;
+}
+
+.match-para {
+    font-size: 18px;
+    
+  
+}
+
+.icons{
+
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 20px;
+   
+   
+}
+
+.match-icon1 {
+
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+
+}
+.match-icon2 {
+
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+
+}
+
+
+
+/*.............. Footer ..............*/
+
+.footer{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    color: white;
+    padding-bottom: 40px;
+   
+}
+
+.footer-heading{
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer hr{
+
+
+    border: 0.1px solid rgb(138, 139, 135);
+    margin: 50px;
+   
+}
+
+
+.anchor{
+
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+}
+.anchor a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(165, 153, 153);
+   
+   
+}
+
+.footer-icons .fa-brands{
+
+    margin-right: 10px;
+    
+    color: rgb(165, 153, 153);
+    
+   
+
+}
+
+.footer-icons{
+    text-align: center;
+}
